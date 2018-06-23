@@ -202,6 +202,14 @@ main aside {
     border-left: none;
 }
 
+main aside.he-fudbal {
+    height: 2378px;
+}
+
+main aside.he-kosarka {
+    height: 2494px;
+}
+
 .index-footer {
     margin-top: 80px;
 }
