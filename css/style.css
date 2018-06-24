@@ -210,20 +210,22 @@ main .content {
 
 main aside {
     width: 200px;
-    padding: 10px;
+		padding: 10px;
+		position: fixed;
+		margin-left: 800px;
     background: rgba(0,0,0,0.1);
     float: right;
-    height: 1807px;
+    /* height: 1807px; */
     border: 2px solid rgba(0, 0, 0, 0.8);
     border-left: none;
 }
 
 main aside.he-fudbal {
-    height: 2378px;
+    /* height: 2378px; */
 }
 
 main aside.he-kosarka {
-    height: 2494px;
+    /* height: 2494px; */
 }
 
 main aside iframe, main aside img {
