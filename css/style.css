@@ -53,7 +53,7 @@ header h1 {
 }
 
 header .kk-img img {
-	padding: 2;
+	padding: 2px;
 	border-radius: 20%;
 }
 
@@ -158,19 +158,24 @@ main .content {
   border-right: none;
 }
 
-.content img.img-1 {
+.content img {
   width: 25%;
-  margin-right: 10px;
   margin-top: 10px;
+}
+
+.content img.img-1 {
+  /* width: 25%; */
+  margin-right: 10px;
+  /* margin-top: 10px; */
   display: inline;
   transition: all  0.3s;
   box-shadow: 2px 2px 2px black;
 }
 
 .content img.img-2 {
-  width: 25%;
+  /* width: 25%; */
   margin-left: 10px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline;
   transition: all  0.3s;
   box-shadow: 2px 2px 2px black;
@@ -315,7 +320,3 @@ footer .stadion {
 footer .karte {
 	float: right;
 }
-
-
-
-
